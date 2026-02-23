@@ -1,0 +1,35 @@
+Assignment 7
+
+As per the instruction I have tried to create a script that will create a table in the specified database.
+
+Requirement
+1. Latest version of Python
+2. PostgreSQL
+3. psycopg2 library
+
+Setup steps
+Create a folder
+1. mypython_project
+
+2. Create Virtual Environment
+python -m venv venv
+
+3. Activate the virtual environment
+venv\Scripts\Activate.ps1
+
+4. Install psycopg2 library
+pip install psycopg2
+
+5. Create a database in PostgreSQL
+CREATE DATABASE myproject_python
+
+6. Update the Database login details in app.py file
+
+7. Run the app.py script
+python app.py
+
+Functions
+1. get_connection - Check DB Connection.
+2. create_table - this will create a table if it is not present.
+3. insert - this will help us to add the data into the table.
+4. get_all - this function will get all the data from the table.

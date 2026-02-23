@@ -1,0 +1,49 @@
+Flask Registration Form Project
+
+Project Overview
+This project is a Flask based web application that has user registration and success form.
+
+The application allows user to:
+1. Register using name, email and password
+2. submit form data using POST method
+3. Redirect to success page after submission
+4. Apply styling using bootstrap
+
+#Technology used
+1. Python
+2. Flask
+3. HTML 5
+4. BootStrap
+
+#Project Structure
+Flask Registration Project
+|--templates
+|  |----base.html
+|  |----register.html
+|  |----success.html
+|--venv
+|--app.py
+
+#Installation and Setup Steps
+1. Install Python
+2. Create Virtual Environment
+    $python -m venv venv
+3. Activate the virtual Environment
+    $.\venv\Scripts\Activate.ps1
+4. Install Flask
+    $ pip install Flask
+5. Verify the basic required libraries are installed or not
+    $ pip list
+6. Run the application
+    $ python app.py
+
+#Application workflow
+1. Open any web browser
+    http://127.0.0.1:5000
+2. User Registration page will open
+3. Enter the Name, Email and Password
+4. Click on the submit button
+5. User will redirected to success page
+6. Username is dynamically displayed using the template variables
+
+

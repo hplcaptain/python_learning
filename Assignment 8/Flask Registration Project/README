@@ -8,12 +8,15 @@ The application allows user to:
 2. submit form data using POST method
 3. Redirect to success page after submission
 4. Apply styling using bootstrap
+5. This will store the data in users.db file under instance folder.
 
 #Technology used
 1. Python
 2. Flask
-3. HTML 5
-4. BootStrap
+3. Flask_WTF
+4. SQLAlchemy 
+5. HTML 5
+6. BootStrap
 
 #Project Structure
 Flask Registration Project
@@ -23,6 +26,7 @@ Flask Registration Project
 |  |----success.html
 |--venv
 |--app.py
+|--forms.py
 
 #Installation and Setup Steps
 1. Install Python
@@ -30,8 +34,13 @@ Flask Registration Project
     $python -m venv venv
 3. Activate the virtual Environment
     $.\venv\Scripts\Activate.ps1
-4. Install Flask
-    $ pip install Flask
+4. Create requirement.txt file and add the module name that are required to be installed
+    flask
+    flask-wtf
+    flask-sqlalchemy
+    email-validator
+4. Install libraries
+    $ pip install -r requirement.txt
 5. Verify the basic required libraries are installed or not
     $ pip list
 6. Run the application

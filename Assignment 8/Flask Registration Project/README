@@ -8,7 +8,7 @@ The application allows user to:
 2. submit form data using POST method
 3. Redirect to success page after submission
 4. Apply styling using bootstrap
-5. This will store the data in users.db file under instance folder.
+5. This will store the data in users.db file under instance folder
 
 #Technology used
 1. Python

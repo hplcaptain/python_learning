@@ -50,7 +50,7 @@ def register():
     return render_template("register.html", form=form)
 
 #------------------------------------------------------------------
-#Success Route
+#Success Route 
 #------------------------------------------------------------------
 
 @app.route("/success")

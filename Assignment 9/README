@@ -1,0 +1,19 @@
+This project is built using Django and Django REST Framework.
+The purpose of this assignment is to create a REST API that manages User profiles using /api/users/ endpoints.
+
+The API allows performing full CRUD operations:
+
+1. Create a user
+2. Read (list) users
+3. Retrieve a single user
+4. Update a user
+5. Delete a user
+
+
+Technology Used
+
+1. Python
+2. Django
+3. Django REST Framework
+4. QLite (default database)
+

@@ -1,0 +1,48 @@
+# Price Scraper and Comparison Tool
+
+# As Amazon was blocking the scrapping and pricing comparision I have to use different website.
+
+## Project Description
+This is a simple Python project that scrapes the price of a product from a website and compares it with a user-defined target price.
+
+The program takes the product URL and a target price as input from the user. It then fetches the product title and price from the webpage and checks whether the current price is below, equal to, or above the target price.
+
+This project demonstrates:
+- Web scraping using BeautifulSoup
+- Sending HTTP requests using requests
+- String cleaning and conversion
+- Conditional statements
+- Exception handling
+
+## Technologies Used
+
+- Python
+- requests library
+- BeautifulSoup (bs4)
+
+## Installation
+
+1. Install Python (if not already installed)
+2. Install required libraries:
+    pip install requests
+    pip install beautifulsoup4
+
+## How to Run the Program
+
+Run the script using:
+$ python scraping.py
+
+The Progeam will ask you to provide url and price
+
+Enter product URL:
+Enter your target price:
+
+I have tested with this URL http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html and price 60
+
+Notes
+
+- This project uses a practice website:  
+  http://books.toscrape.com
+
+- Some commercial websites like Amazon block scraping using simple requests.
+- This project is for learning purposes only.

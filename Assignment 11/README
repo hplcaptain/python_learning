@@ -1,0 +1,70 @@
+# Assignment 11 – OpenCV Basics
+
+## Description
+
+This assignment demonstrates basic OpenCV operations in Python.
+
+The goal of this assignment is to understand:
+
+- How to read and write images
+- How to read video files
+- How to capture webcam video
+- How to rotate images
+- How to apply thresholding
+- How to draw shapes
+- How to write video using VideoWriter
+
+All programs are written using simple beginner-level OpenCV concepts.
+
+---
+
+## Requirements
+Make sure Python is installed.
+
+Install OpenCV:
+pip install opencv-python
+
+---
+
+##  Files Included
+
+1. read_image.py  
+   Reads and displays an image using cv2.imread() and cv2.imshow()
+
+2. write_image.py  
+   Reads an image and saves a copy using cv2.imwrite()
+
+3. reading_video.py  
+   Reads a video file and displays frames one by one
+
+4. web_camera.py  
+   Captures live webcam video and displays it
+
+5. image_rotation.py  
+   Rotates an image using getRotationMatrix2D() and warpAffine()
+
+6. thresholding.py  
+   Applies binary threshold using cv2.threshold()
+
+7. video_writing.py  
+   Records webcam video and saves it using VideoWriter()
+
+8. add_shape.py  
+   Draws rectangle, circle, line, and polygon on a blank image
+
+## How to Run
+
+Place your sample image (sample.jpg) in the same folder as the Python files.
+
+To run any file:
+
+python filename.py
+
+Example:
+
+python read_image.py
+python image_rotation.py
+
+For video reading, place a video file (video.mp4) in the same folder.
+
+Press 'q' to quit video or webcam windows.
